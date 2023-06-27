@@ -21,9 +21,9 @@ body {
 
 .container {
   height: 100vh;
-  width: 650px;
+  width: 670px;
   background-color: hsl(0, 0%, 100%);
-  box-shadow: -10px 20px 30px -15px rgba(0, 0, 0, 0.1);
+  box-shadow: 20px 20px 30px -15px hsla(252, 100%, 67%, 0.2);
 }
 
 .result-container {
@@ -117,6 +117,26 @@ body {
   gap: 1.2em;
 }
 
+.reaction-item {
+  background-color: hsla(0, 100%, 67%, 0.1);
+  border-radius: 10px;
+}
+
+.memory-item {
+  background-color: hsla(39, 100%, 56%, 0.1);
+  border-radius: 10px;
+}
+
+.verbal-item {
+  background-color: hsla(166, 100%, 37%, 0.1);
+  border-radius: 10px;
+}
+
+.visual-item {
+  background-color: hsla(234, 85%, 45%, 0.1);
+  border-radius: 10px;
+}
+
 .summary-item div > .reaction {
   color: hsl(0, 100%, 67%);
 }
@@ -165,7 +185,7 @@ body {
     align-items: center;
   }
   .container {
-    height: 450px;
+    height: 500px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
